@@ -20,11 +20,11 @@
 	<distributionManagement>
 		 <repository>
 		   <id>packagecloud-sivakumar</id>
-		   <url>packagecloud-https://packagecloud.io/sivakumar/buildkiteTest</url>
+		   <url>https://packagecloud.io/sivakumar/buildkiteTest</url>
 		 </repository>
 	  <snapshotRepository>
 	    <id>packagecloud-sivakumar</id>
-	    <url>packagecloud-https://packagecloud.io/sivakumar/buildkiteTest</url>
+	    <url>https://packagecloud.io/sivakumar/buildkiteTest</url>
 	  </snapshotRepository>
 	</distributionManagement>
 
