@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="29a8b0c4-7a8c-424d-bacb-be7978201dd9" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="buildkite-pocFlow" doc:id="f196ba29-4eea-43b9-bc14-d83ffa64eb10" >
+		<http:listener doc:name="Listener" doc:id="30fc200d-be4e-4786-a1e8-41f75471fb07" config-ref="HTTP_Listener_config" path="/buildkite"/>
+		<logger level="INFO" doc:name="LOG INFO" doc:id="eeabd832-0701-4151-95f6-02f97ef7a494" message="buildkite tool flow started"/>
+		<set-payload value='#["Welcome to buildkite"]' doc:name="Set Payload" doc:id="27bf967b-8ccc-482e-a6a3-0512515a9d65" />
+		<logger level="INFO" doc:name="LOG INFO" doc:id="7a71898d-fa1c-4891-a3c8-f0bd7ebcad3f" message="buildkite tool flow ended"/>
+	</flow>
+</mule>
