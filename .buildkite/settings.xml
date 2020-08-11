@@ -1,0 +1,11 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+  http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+    <server>
+      <id>packagecloud-sivakumar</id>
+      <password>4f8e33386bf1ff6de4ea9ed4c139935e68ec6f60c01a3351</password>
+    </server>
+  </servers>
+</settings>

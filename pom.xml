@@ -17,6 +17,16 @@
 		<app.runtime>4.2.2</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 	</properties>
+	<distributionManagement>
+		 <repository>
+		   <id>packagecloud-sivakumar</id>
+		   <url>packagecloud-https://packagecloud.io/sivakumar/buildkiteTest</url>
+		 </repository>
+	  <snapshotRepository>
+	    <id>packagecloud-sivakumar</id>
+	    <url>packagecloud-https://packagecloud.io/sivakumar/buildkiteTest</url>
+	  </snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
@@ -27,6 +37,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
+					
                 		<uri>https://anypoint.mulesoft.com/</uri>
                 		<username>sivaAug07</username>
                 		<password>sivaAug07</password>
