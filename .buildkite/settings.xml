@@ -4,9 +4,9 @@
   http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <server>
-      <id>packagecloud-sivakumar</id>
-      <username>siva.chellaboyina@apisero.com</username>
-      <password>4f8e33386bf1ff6de4ea9ed4c139935e68ec6f60c01a3351</password>
+      <id>github</id>
+      <username>sivakumar1107</username>
+      <password>39a37758f6ef4d1f1baa06a64c29c652b681a347</password>
     </server>
   </servers>
 </settings>

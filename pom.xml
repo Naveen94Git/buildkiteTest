@@ -18,10 +18,11 @@
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 	</properties>
 	<distributionManagement>
-		 <repository>
-		   <id>packagecloud-sivakumar</id>
-		   <url>https://packagecloud.io/sivakumar/buildkiteTest</url>
-		 </repository>
+       	 <repository>
+            <id>github</id>
+            <name>GitHub</name>
+            <url>https://github.com/sivakumar1107/buildkiteTest.git</url>
+         </repository>    	
 	</distributionManagement>
 
 	<build>
