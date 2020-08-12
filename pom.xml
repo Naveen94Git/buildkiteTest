@@ -47,7 +47,7 @@
        	 <repository>
             <id>github</id>
             <name>GitHub</name>
-            <url>https://github.com/sivakumar1107/buildkiteTest.git/true</url>
+            <url>https://github.com/sivakumar1107/buildkiteTest.git</url>
          </repository>    	
 	</distributionManagement>
 
@@ -63,6 +63,11 @@
             <artifactId>mule-sockets-connector</artifactId>
             <version>1.1.5</version>
             <classifier>mule-plugin</classifier>
+        </dependency>
+        <dependency>
+        	<groupId>com.mycompany</groupId>
+  			<artifactId>buildkite-poc</artifactId>
+  			<version>1.0.0-SNAPSHOT</version>
         </dependency>
 	</dependencies>
 
