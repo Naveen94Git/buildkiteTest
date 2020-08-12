@@ -28,21 +28,20 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-                		<uri>https://anypoint.mulesoft.com/</uri>
-                		<businessGroup>Apisero</businessGroup>
-                		<objectStoreV2>true</objectStoreV2>
+                		<uri>${MULE_URI}</uri>
+                		<businessGroup>${MULE_BUSS_GRP}</businessGroup>
+                		<objectStoreV2>${MULE_OBJ_STR2}</objectStoreV2>
                 		<username>${MULE_USERNAME}</username>
                 		<password>${MULE_PASSWORD}</password>
-                		<environment>Sandbox</environment>
-                		<workers>1</workers>
-                		<workerType>Micro</workerType>
-                		<applicationName>buidlkite-poc</applicationName>
-                		<muleVersion>4.2.2</muleVersion>
+                		<environment>${MULE_ENV}</environment>
+                		<workers>${MULE_WORKER}</workers>
+                		<workerType>${MULE_WORKER_TYP}</workerType>
+                		<applicationName>${MULE_APP_NAME}</applicationName>
+                		<muleVersion>${MULE_VERSION}</muleVersion>
                 </cloudHubDeployment>
 			  </configuration>
 			</plugin>
 		</plugins>
-		
 	</build>
 	<distributionManagement>
        	 <repository>
