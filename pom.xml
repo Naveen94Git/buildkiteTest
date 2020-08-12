@@ -31,8 +31,8 @@
                 		<uri>https://anypoint.mulesoft.com/</uri>
                 		<businessGroup>Apisero</businessGroup>
                 		<objectStoreV2>true</objectStoreV2>
-                		<username>sivaAug07</username>
-                		<password>sivaAug07</password>
+                		<username>${MULE_USERNAME}</username>
+                		<password>${MULE_PASSWORD}</password>
                 		<environment>Sandbox</environment>
                 		<workers>1</workers>
                 		<workerType>Micro</workerType>
