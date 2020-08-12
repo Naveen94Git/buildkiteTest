@@ -45,8 +45,8 @@
 	</build>
 	<distributionManagement>
        	 <repository>
-            <id>github</id>
-            <name>GitHub</name>
+            <id>286673630</id>
+            <name>sivakumar1107</name>
             <url>https://github.com/sivakumar1107/buildkiteTest.git</url>
          </repository>    	
 	</distributionManagement>
