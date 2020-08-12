@@ -46,7 +46,7 @@
 	<distributionManagement>
        	 <repository>
             <id>286673630</id>
-            <url>git@github.com:sivakumar1107/buildkiteTest.git</url>
+            <url>https://github.com/sivakumar1107/buildkiteTest.git</url>
          </repository>    	
 	</distributionManagement>
 
