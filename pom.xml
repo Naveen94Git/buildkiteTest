@@ -17,13 +17,7 @@
 		<app.runtime>4.2.2</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 	</properties>
-	<distributionManagement>
-       	 <repository>
-            <id>github</id>
-            <name>GitHub</name>
-            <url>https://github.com/sivakumar1107/buildkiteTest.git</url>
-         </repository>    	
-	</distributionManagement>
+	
 
 	<build>
 		<plugins>
@@ -49,6 +43,13 @@
 		</plugins>
 		
 	</build>
+	<distributionManagement>
+       	 <repository>
+            <id>github</id>
+            <name>GitHub</name>
+            <url>https://github.com/sivakumar1107/buildkiteTest.git/true</url>
+         </repository>    	
+	</distributionManagement>
 
 	<dependencies>
         <dependency>
