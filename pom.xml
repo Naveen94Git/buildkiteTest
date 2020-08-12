@@ -31,7 +31,7 @@
 					
                 		<uri>https://anypoint.mulesoft.com/</uri>
                 		<businessGroup>Apisero</businessGroup>
-                		<region>us-east-ohio</region>
+                		<region>us-east</region>
                 		<username>sivaAug07</username>
                 		<password>sivaAug07</password>
                 		<environment>Sandbox</environment>
