@@ -49,7 +49,6 @@
             <url>https://api.github.com/repos/sivakumar1107/buildkiteTest</url>
          </repository>    	
 	</distributionManagement>
-
 	<dependencies>
         <dependency>
             <groupId>org.mule.connectors</groupId>
